@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/contact/css/styles.css">
+  <link rel="stylesheet" href="/contact/css/normalizer.css">
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=888220fc-edf9-4c39-9192-67abbd181e89&lang=ru_RU" type="text/javascript">    </script>
+  <title>Product Catalog</title>
+</head>
+<body>
+  <header style="background-color: #323338;">
+    <a href="#" class="logo">
+      <img src="/images/svg/logo.svg" alt="Swigs Cosmetics">
+    </a>
+    <nav>
+      <ul class="nav-items">
+        <li><a href="#" class="nav-item">О нас</a></li>
+        <li><a href="#" class="nav-item">Каталог</a></li>
+        <li><a href="#" class="nav-item">Доставка и оплата</a></li>
+        <li><a href="#" class="nav-item">Отзывы</a></li>
+        <li><a href="#"><button class="contact-btn">Контакты</button></a></li>
+      </ul>
+      <div class="icons">
+        <a href="#" class="search-icon">
+          <img src="/images/svg/search-normal.svg" alt="Search">
+        </a>
+        <a href="#" class="cart-icon">
+          <img src="/images/svg/bag.svg" alt="Cart">
+        </a>
+        <a href="#" class="profile-icon">
+          <img src="/images/svg/profile.svg" alt="Profile">
+        </a>
+      </div>
+    </nav>
+  </header>
+  <div class="parallax">
+    <h2 class="parallax-title">красота и уход</h2>
+    <h2 class="cards-title">о нас</h2>
+  </div>
+  <section class="about-us">
+    <div class="about-us-description">
+      <p class="about-us-item1">“Swigs" - это уникальное место, где вы можете погрузиться в мир корейской косметики и парфюмерии. Наш магазин предлагает широкий ассортимент продуктов от ведущих корейских брендов, известных своей инновацией и уникальными составами.</p>
+      <p class="about-us-item2">Мы гарантируем подлинность всех продуктов, предлагаемых в нашем магазине, и обеспечиваем безопасную и защищенную платежную систему, чтобы обеспечить полное удовлетворение и уверенность наших клиентов при совершении покупок. Наша команда готова ответить на все ваши вопросы и предоставить индивидуальные рекомендации, чтобы помочь вам выбрать идеальные продукты для вашего типа кожи и желаемого эффекта.</p>
+    </div>
+  </section>
+  <div class="callback-block">
+    <div class="text">
+      <p>Вы можете заказать обратную связь.</p>
+      <p>Наш консультант свяжется с вами и поможет индивидуально выбрать продукцию подходящую именно вам.</p>
+    </div>
+    <form class="form">
+      <div class="input-group">
+        <label for="name">Имя:</label>
+        <input type="text" id="name" name="name">
+      </div>
+      <div class="input-group">
+        <label for="phone">Номер телефона:</label>
+        <input type="tel" id="phone" name="phone">
+      </div>
+      <div class="input-group">
+        <label for="email">Почта:</label>
+        <input type="email" id="email" name="email">
+      </div>
+      <button type="submit">Заказать звонок</button><br>
+      <p>Нажимая на кнопку, вы даете согласие на обработку персональных данных.</p>
+    </form>
+  </div>
+  <div class="map-block">
+    <div class="text">
+      <p>Мы находимся по адресу: </p>
+      <p>Бабушкина 22</p>
+    </div>
+    <div class= "mapitem" id="map"></div>
+  </div>
+  </div>
+  <section class="contact-us">
+    <h2>Связаться с нами</h2>
+    <p>Если у вас возникли какие-либо вопросы, наши специалисты всегда готовы вам помочь.</p>
+    <ul>
+      <li><a href="tel:+1234567890">+123-456-7890</a></li>
+      <li><a href="mailto:info@swigscosmetics.com">info@swigscosmetics.com</a></li>
+    </ul>
+  </section>
+  <footer class="footer">
+    <div class="footer__inner">
+      <p class="footer__text">Вы можете найти продукцию на любой вкус</p>
+      <div class="footer__categories">
+        <button class="footer__category-btn">Макияж</button>
+        <button class="footer__category-btn">Уход за кожей</button>
+        <button class="footer__category-btn">Уход за волосами</button>
+        <button class="footer__category-btn">Ароматизаторы</button>
+        <button class="footer__category-btn">Духи</button>
+        <button class="footer__category-btn">Спреи для тела</button>
+      </div>
+    </div>
+  </footer>
+</body>
+<script src="/contact/script.js"></script>
+</html>
