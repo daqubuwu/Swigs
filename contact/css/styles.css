@@ -685,7 +685,6 @@ a#openPopUp:hover{
 .popup a.closePopUp{
   font-family: verdana;
   color: #e74c3c;
-  position: absolute;
   top: 0.2em;
   right: 0.375em;
   margin: 0;
@@ -704,7 +703,6 @@ a#openPopUp:hover{
   top: 0;
 }
 .popup .closePopUpOutSide{
-  position: absolute;
   left:0;
   width: 100%;
   height: 100%;

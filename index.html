@@ -25,34 +25,7 @@
           <img src="./images/svg/search-normal.svg" alt="Search">
         </a>
         <a href="#popUp" class="cart-icon" id="openPopUp"></a>
-          <aside id="popUp" class="popup">
-              <div class="popUpContainer">
-
-                  <a href="#!" class="closePopUp">X</a>
-                  <h2>Корзина</h2>
-                  <div class="cart-items">
-                    
-                  <div class="product-card">
-                    <img src="images/tovar/a1.jpg" alt="Product 1">
-                    <h3>Солнцезащ. стик с березовым соком Round Lab Birch Juice Moisturizing Sun Stick SPF 50+ PA++++</h3>
-                    <p>1 790 ₽</p>
-                  </div>
-                  <div class="product-card">
-                    <img src="images/tovar/hollyshop-_1_.png" alt="Product 3">
-                    <h3>Мягкий гель для умывания COSRX Low pH Good Morning Gel Cleanser</h3>
-                    <p>1 088 ₽</p>
-                  </div>
-                  <div class="product-card">
-                    <img src="images/tovar/a2.jpg" alt="Product 8">
-                    <h3>Лосьон-молочко с персиком и ниацинамидом Anua Peach 77 Niacin Conditioning Milk</h3>
-                    <p>2 350 ₽</p>
-                </div>
-             </div>   
-             <article>
-              <h2>Оплатить!</h2>
-            </article>     
-             <a href="#!" class="closePopUpOutSide"></a>    
-          </aside>
+          
         </a>
         <label class="auth" for="modal-toggle">
           <img src="./images/svg/profile.svg" class="auth"alt="Profile">
@@ -262,12 +235,12 @@
             </div>
           </div>
         <div class="product-grid">
-          <div class="product-card">
+          <label class="product-card" for="modal-1">
             <img src="images/tovar/a1.jpg" alt="Product 1">
             <h3>Солнцезащитный стик с березовым соком Round Lab Birch Juice Moisturizing Sun Stick SPF 50+ PA++++</h3>
             <p>1 790 ₽</p>
             <button class="add-to-cart">В корзину</button>
-          </div>
+          </label>
           <div class="product-card">
             <img src="images/tovar/A_mazing_Bakuchiol_Night_Cream.jpg" alt="Product 2">
             <h3>Ночной крем с ретинолом и бакучиолом By Wishtrend Vitamin A-mazing Bakuchiol Night Cream</h3>
@@ -317,7 +290,25 @@
             <button class="add-to-cart">В корзину</button>
           </div>
         </div>
+        <input class="modal-state" id="modal-1" type="checkbox" />
+<div class="modal">
+<label class="modal__bg" for="modal-1"></label>
+<div class="modal__inner">
+  <label class="modal__close" for="modal-1"></label>
+  <div class="productsa">
+    <div class="product-card2">
+      <img src=".././images/tovar/bb1.jpg" alt="Product 1">
+      <p class="product-price">2 150 ₽</p>
+      <button class="add-to-cart">В корзину</button>
+    </div>
+    <div class="item-desc">
+      <h3 class = "product-title">Барьерный кремовый тонер Celimax Dual Barrier Creamy Toner</h3>
+      <p class="item-description">Кремовый тонер Celimax восстанавливает кожный барьер, глубоко увлажняет и смягчает кожу. Идеален для сухой, чувствительной и обезвоженной кожи. 
+        Ключевые ингредиенты: керамиды, холестерол, гиалуроновая кислота, центелла азиатская.</p>
+    </div>
+  </div>
       </section>
+      
       <div class="parallax">
         <img src="./images/bg.png" alt="Image">
       </div>
@@ -577,6 +568,34 @@
           </div>
         </div>
       </footer>
+      <aside id="popUp" class="popup">
+        <div class="popUpContainer">
+
+            <a href="#!" class="closePopUp">X</a>
+            <h2>Корзина</h2>
+            <div class="cart-items">
+              
+            <div class="product-card">
+              <img src="images/tovar/a1.jpg" alt="Product 1">
+              <h3>Солнцезащ. стик с березовым соком Round Lab Birch Juice Moisturizing Sun Stick SPF 50+ PA++++</h3>
+              <p>1 790 ₽</p>
+            </div>
+            <div class="product-card">
+              <img src="images/tovar/hollyshop-_1_.png" alt="Product 3">
+              <h3>Мягкий гель для умывания COSRX Low pH Good Morning Gel Cleanser</h3>
+              <p>1 088 ₽</p>
+            </div>
+            <div class="product-card">
+              <img src="images/tovar/a2.jpg" alt="Product 8">
+              <h3>Лосьон-молочко с персиком и ниацинамидом Anua Peach 77 Niacin Conditioning Milk</h3>
+              <p>2 350 ₽</p>
+          </div>
+       </div>   
+       <article>
+        <h2>Оплатить!</h2>
+      </article>     
+       <a href="#!" class="closePopUpOutSide"></a>    
+    </aside>
   </main>
 </body>
 </html>
