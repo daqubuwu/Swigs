@@ -27,9 +27,65 @@
         <a href="#" class="cart-icon">
           <img src=".././images/svg/bag.svg" alt="Cart">
         </a>
-        <a href="#" class="profile-icon">
-          <img src=".././images/svg/profile.svg" alt="Profile">
-        </a>
+        <label class="auth" for="modal-toggle">
+          <img src=".././images/svg/profile.svg" class="auth"alt="Profile">
+        </label>
+      </div>
+    </nav>
+  </header>
+  <label class="modal-btn" for="modal-toggle"></label>  
+
+    <input id="modal-toggle" type="checkbox">
+    <label class="modal-backdrop" for="modal-toggle"></label>
+    <div class="modal-content">
+        <label class="modal-close-btn" for="modal-toggle">
+		      <svg width="50" height="50">
+            <line x1="10" y1="10" x2="40" y2="40"/>
+		        <line x1="40" y1="10" x2="10" y2="40"/>
+		      </svg>
+	      </label>
+        <div class="tabs">
+<!--  LOG IN  -->
+            <input class="radio" id="tab-1" name="tabs-name" type="radio" checked>
+            <label for="tab-1" class="table"><span>Login</span></label>
+            <div class="tabs-content">
+               <div class="login_socnet">
+                   <a href="" class="fa fa-vk" aria-hidden="true"></a>
+                   <a href="" class="fa fa-google-plus" aria-hidden="true"></a>
+                   <a href="" class="fa fa-facebook" aria-hidden="true"></a>
+               </div>
+               <form action="">
+                   <input type="email" placeholder="Email" required>
+                   <input type="password" placeholder="Password" required>
+                   <input type="submit" value="Log In">
+               </form>
+               <form class="forgot-password" action="">
+                   <input id="forgot-password-toggle" type="checkbox">
+                   <label for="forgot-password-toggle">forgot password?</label>
+                   <div class="forgot-password-content">
+                       <input type="email" placeholder="enter your email" required>
+                       <input type="submit" value="go">
+                   </div>
+               </form>
+            </div>
+<!--  SIGN UP  -->
+            <input class="radio" id="tab-2" name="tabs-name" type="radio">
+            <label for="tab-2" class="table"><span>Sign up</span></label>
+            <div class="tabs-content">
+                <div class="login_socnet">
+                   <a href="" class="fa fa-vk" aria-hidden="true"></a>
+                   <a href="" class="fa fa-google-plus" aria-hidden="true"></a>
+                   <a href="" class="fa fa-facebook" aria-hidden="true"></a>
+               </div>
+               <form action="">
+                   <input type="email" placeholder="Email" required>
+                   <input type="password" placeholder="Password" required>
+                   <input type="password" placeholder="Confirm password" required>
+                   <input type="submit" value="Sign Up">
+               </form>
+            </div>
+        </div>
+    </div>          
       </div>
     </nav>
   </header>
@@ -109,59 +165,60 @@
     </div>
     <div class="product-grid">
       <div class="product-card">
-        <img src=".././images/tovar1 1.png" alt="Product 1">
-        <h3>Увлажняющий стик для глаз с ледниковой водой The Saem Iceland Hydrating Eye Stick</h3>
-        <p>800 ₽</p>
+        <img src=".././images/tovar/bb1.jpg" alt="Product 1">
+        <h3>Барьерный кремовый тонер Celimax Dual Barrier Creamy Toner</h3>
+        <p>2 150 ₽</p>
         <button class="add-to-cart">В корзину</button>
       </div>
       <div class="product-card">
-        <img src=".././images/tovar1 1.png" alt="Product 2">
-        <h3>Product 2</h3>
-        <p>$29.99</p>
+        <img src=".././images/tovar/bb.jpg" alt="Product 2">
+        <h3>Мягкая пенка для умывания с морской водой Round Lab 1025 Dokdo Cleanser</h3>
+        <p>1 490 ₽</p>
         <button class="add-to-cart">В корзину</button>
       </div>
       <div class="product-card">
-        <img src=".././images/tovar1 1.png" alt="Product 3">
-        <h3>Product 3</h3>
-        <p>$34.99</p>
+        <img src=".././images/tovar/choson-_7_-_1_.png" alt="Product 3">
+        <h3>Активная сыворотка для сияния кожи Beauty of Joseon Glow Serum: Propolis+Niacinamide</h3>
+        <p>1 690 ₽</p>
         <button class="add-to-cart">В корзину</button>
       </div>
       <div class="product-card">
-        <img src=".././images/tovar1 1.png" alt="Product 4">
-        <h3>Product 4</h3>
-        <p>$12.99</p>
+        <img src=".././images/tovar/123qweqwe.png" alt="Product 4">
+        <h3>ТУАЛЕТНАЯ ВОДА `CLIVE & KEIRA` ROUAGE (УНИСЕКС) 30 МЛ</h3>
+        <p>1 790 ₽</p>
         <button class="add-to-cart">В корзину</button>
       </div>
       <div class="product-card">
-        <img src=".././images/tovar1 1.png" alt="Product 5">
-        <h3>Product 5</h3>
-        <p>$45.99</p>
+        <img src=".././images/tovar/123qqw.png" alt="Product 5">
+        <h3>ПАРФЮМИРОВАННЫЙ МИСТ ДЛЯ ТЕЛА `BESTIES` BODY MIST ALWAYS YOURS 30 МЛ</h3>
+        <p>490 ₽</p>
         <button class="add-to-cart">В корзину</button>
       </div>
       <div class="product-card">
-        <img src=".././images/tovar1 1.png" alt="Product 6">
-        <h3>Product 6</h3>
-        <p>$22.99</p>
+        <img src=".././images/tovar/123.png" alt="Product 6">
+        <h3>ТУАЛЕТНАЯ ВОДА `ANTONIO BANDERAS` BLUE SEDUCTION (МУЖ.) 100 МЛ</h3>
+        <p>2 990 ₽</p>
         <button class="add-to-cart">В корзину</button>
       </div>
       <div class="product-card">
-        <img src=".././images/tovar1 1.png" alt="Product 7">
-        <h3>Product 7</h3>
-        <p>$19.99</p>
+        <img src=".././images/tovar/123qq.png" alt="Product 7">
+        <h3>ТУАЛЕТНАЯ ВОДА `CLIVE & KEIRA` LOST CHERRY (УНИСЕКС) 30 МЛ</h3>
+        <p>1 790 ₽</p>
         <button class="add-to-cart">В корзину</button>
       </div>
       <div class="product-card">
-        <img src=".././images/tovar1 1.png" alt="Product 8">
-        <h3>Product 8</h3>
-        <p>$39.99</p>
+        <img src=".././images/tovar/123q.png" alt="Product 8">
+        <h3>ПАРФЮМИРОВАННЫЙ МИСТ ДЛЯ ТЕЛА `BESTIES` SHIMMER MIST SINFONIA VANILLA 88 МЛ</h3>
+        <p>300 ₽</p>
         <button class="add-to-cart">В корзину</button>
       </div>
       <div class="product-card">
-        <img src=".././images/tovar1 1.png" alt="Product 8">
-        <h3>Product 8</h3>
-        <p>$39.99</p>
+        <img src=".././images/tovar/123qwe.png" alt="Product 8">
+        <h3>ПАРФЮМЕРНАЯ ВОДА `BESTIES` NATURE SOUND SUMMER PASSION (ЖЕН.) 20 МЛ</h3>
+        <p>460 ₽</p>
         <button class="add-to-cart">В корзину</button>
       </div>
+    </div>
   </section>
   </div>
   <section class="contact-us">
