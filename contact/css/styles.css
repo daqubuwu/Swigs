@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Montserrat";
-  src: url("/fonts/Montserrat-Light.woff2") format("woff2");
+  src: url("../.././fonts/Montserrat-Light.woff2") format("woff2");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: "Montserrat";
-  src: url("/fonts/Montserrat-Regular.woff2") format("woff2");
+  src: url("../.././fonts/Montserrat-Regular.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -16,7 +16,7 @@
 
 @font-face {
   font-family: "Montserrat";
-  src: url("/fonts/Montserrat-Bold.woff2") format("woff2");
+  src: url("../.././fonts/Montserrat-Bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -24,7 +24,7 @@
 
 @font-face {
   font-family: "SantaCatarina";
-  src: url("/fonts/SantaCatarina.woff2") format("woff2");
+  src: url("../.././fonts/SantaCatarina.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -331,6 +331,7 @@ nav ul li a {
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  text-decoration: none;
 }
 
 .footer__category-btn:hover {
@@ -613,7 +614,7 @@ nav ul li a {
  
 
 #openPopUp{
-  background:url(/images/svg/bag.svg)no-repeat center center;
+  background:url(../.././images/svg/bag.svg)no-repeat center center;
   text-align:center;
   padding: 15px 15px;
   color: #ffffff;

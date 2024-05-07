@@ -44,6 +44,9 @@ h2 {
   color: #323338;
 }
 
+button {
+  text-decoration: none;
+}
 body {
   margin: 0;
   background-color: #ffffff;
@@ -127,10 +130,17 @@ nav ul li a {
   gap: 20px;
 }
 
+.cart-icon {
+  background-image: url(./images/svg/bag.svg);
+}
+
 .cart-icon:hover {
   transform: scale(1.05);
 }
 
+.modal-btn {
+  background-image: url(/images/svg/bag.svg);
+}
 .search-icon:hover {
   transform: scale(1.05);
 }
@@ -183,6 +193,7 @@ nav ul li a {
   color: #fff;
   width: 389px;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 .catalog-btn:hover {
@@ -734,6 +745,7 @@ nav ul li a {
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  text-decoration: none;
 }
 
 .footer__category-btn:hover {
@@ -991,7 +1003,7 @@ nav ul li a {
 }
  
 #openPopUp{
-  background:url(/images/svg/bag.svg)no-repeat center center;
+  background:url(.././images/svg/bag.svg)no-repeat center center;
   text-align:center;
   padding: 15px 15px;
   color: #ffffff;
@@ -1213,7 +1225,7 @@ a#openPopUp:hover{
 
 .item-description {
   font-size: 24px;
-  width: 70%;
+  width: 80%;
 }
 
 .product-card2 {
